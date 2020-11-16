@@ -369,6 +369,7 @@ a{
 }
 p{
     line-height: 2;
+    color: var(--primary-text-color);
   
 }
 
@@ -381,6 +382,7 @@ hr{
 /* Skills section */
 .middle-container{
     margin: 20%;
+    color: var(--primary-text-color);
 }
 .mid
   
@@ -750,6 +752,8 @@ hr{
  
 .middle-container{
     margin: 15%;
+    color: var(--primary-text-color);
+
 }
 .profile-pic{
     height: 200px;
@@ -860,6 +864,8 @@ hr{
     }
     .middle-container{
         margin: 1rem auto;
+    color: var(--primary-text-color);
+
         
     }
     .profile-pic{
@@ -876,7 +882,9 @@ hr{
     h3{
         font-size: 1rem;
     }
-
+p{
+    color: var(--primary-text-color);
+}
     .icons{
         width: 90px;
         display: block;
