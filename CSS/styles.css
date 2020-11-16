@@ -384,7 +384,9 @@ hr{
     margin: 20%;
     color: var(--primary-text-color);
 }
-.mid
+.list{
+    color: var(--primary-text-color);
+}
   
 #skills{
     display: flex;
