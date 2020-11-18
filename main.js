@@ -13,6 +13,21 @@ function scrollPage(){
         myButton.style.display = "none"
     }
 }
+
+// Preloader screen 
+const bounceWrapper = document.querySelector('.bouncer-wrapper');
+window.addEventListener('load', ()=>{
+  document.querySelector('.bouncer-wrapper').classList.add("disappear");
+});
+function finishedLoading(){
+  setTimeout(()=>{
+    bounceWrapper.style.display= "none";
+  },6000) ; 
+}
+finishedLoading();
+
+/********************************************************************** */
+
 // Event lister to the back to top button
 myButton.addEventListener('click',()=>{
   document.body.scrollTop = 0;
